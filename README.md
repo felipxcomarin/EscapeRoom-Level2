@@ -1,5 +1,7 @@
 ﻿# 🕹️ NEXUS-9: Escape Laboratory — [Level 2]
 
+ ![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter) ![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart) ![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?logo=node.js) ![Express](https://img.shields.io/badge/Express.js-REST-000000?logo=express) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql) ![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github) ![Jira](https://img.shields.io/badge/Jira-Project-0052CC?logo=jira) ![Figma](https://img.shields.io/badge/Figma-UX%2FUI-F24E1E?logo=figma)
+
 > **Proyecto académico** — SENA ADSO / Centro de Diseño Tecnológico e Innovación
 
 * **Integrantes:** 
@@ -58,11 +60,12 @@ Avanzar de nivel
 * **Objetivo:** Resolver los acertijos de lógica y conseguir la Llave 2.
 * **Objetos y elementos:** Tres puertas, luces de colores, panel de condiciones, números y teclado.
 
-### 🧩 Puzzles y soluciones
+## 🧩 Puzzles y soluciones
 
 * **Puzzle 1 — Luces:** roja apagada, azul encendida, verde apagada. La pista dice que la puerta correcta tiene la luz encendida.
 * **Puzzle 2 — Condiciones:** Roja: \(5 > 10\); Azul: \(10 > 5\); Verde: \(2 > 8\). Solo la condición azul es verdadera.
 * **Puzzle 3 — Código:** aparecen 4, 7 y 2. La pista indica ordenarlos de menor a mayor: 247.
+
 
 * **Recompensa:** 🗝️ LLAVE 2
 
@@ -71,3 +74,16 @@ Avanzar de nivel
 > ⚙️ **Responsabilidad técnica:** Diseñar reglas, pistas, soluciones, niveles de dificultad y feedback. Documentar claramente la respuesta correcta para integración.
 
 
+# 🛠️ Tecnologías
+
+| Área | Tecnología |
+|---|---|
+| Frontend | Flutter / Dart |
+| Backend | Node.js / Express |
+| Base de datos | PostgreSQL |
+| API | REST |
+| Diseño | Figma / Canva |
+| Gestión | Jira Software |
+| Control de versiones | Git / GitHub |
+| Pruebas API | Postman |
+| IDE | Visual Studio Code / Android Studio |
