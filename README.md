@@ -90,6 +90,24 @@ else:
 > ⚙️ **Responsabilidad técnica:** Diseñar reglas, pistas, soluciones, niveles de dificultad y feedback. Documentar claramente la respuesta correcta para integración.
 
 
+### ⚙️ Mecánicas
+
+- **Interacción:** seleccionar objetos para obtener información o ejecutar acciones.
+- **Inventario:** almacenar objetos obtenidos.
+- **Puertas:** bloqueadas, desbloqueadas y abiertas.
+- **Pistas:** ayudan al jugador y reducen puntuación.
+- **Temporizador:** muestra el tiempo restante del nivel.
+- **Niveles:** completar el nivel actual desbloquea el siguiente.
+
+### 📦 Inventario de ejemplo
+
+```text
+INVENTARIO
+
+[Access Card]
+[Master Code]
+```
+
 ### 🛠️ Tecnologías
 
 | Área | Tecnología |
