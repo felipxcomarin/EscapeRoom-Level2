@@ -137,3 +137,37 @@ INVENTARIO
 | Control de versiones | Git / GitHub |
 | Pruebas API | Postman |
 | IDE | Visual Studio Code / Android Studio |
+
+
+### 📊 Diagramas del Sistema
+Espacio reservado para los diagramas técnicos y de diseño del proyecto:
+
+1. Arquitectura General
+(Adjunta aquí la imagen del diagrama de arquitectura general del sistema)
+![Arquitectura General](./assets/diagramas/arquitectura.png)
+
+2. Diagrama de Componentes
+(Adjunta aquí la imagen de los componentes de Flutter y Node.js)
+![Componentes](./assets/diagramas/componentes.png)
+
+3. Diagrama de Clases
+(Adjunta aquí la imagen de la estructura de clases orientada a objetos en Dart)
+![Clases](./assets/diagramas/clases.png)
+
+4. Diagrama de Despliegue
+(Adjunta aquí la imagen del modelo cliente-servidor y base de datos)
+![Despliegue](./assets/diagramas/despliegue.png)
+
+5. Diagrama de Actividades
+(Adjunta aquí la imagen del flujo de actividades y resolución de puzzles del nivel)
+![Actividades](./assets/diagramas/actividades.png)
+
+
+### 📄 Licencia
+
+Proyecto desarrollado con fines académicos para el programa:
+
+**Análisis y Desarrollo de Software — ADSO**  
+**SENA — Centro de Diseño Tecnológico e Innovación**
+
+---
