@@ -1,4 +1,4 @@
-﻿# 🕹️ NEXUS-9: Escape Laboratory — [Level 2]
+﻿## 🕹️NEXUS-9: Escape Laboratory — [Level 2]
 
  ![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter) ![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart) ![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?logo=node.js) ![Express](https://img.shields.io/badge/Express.js-REST-000000?logo=express) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql) ![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github) ![Jira](https://img.shields.io/badge/Jira-Project-0052CC?logo=jira) ![Figma](https://img.shields.io/badge/Figma-UX%2FUI-F24E1E?logo=figma)
 
@@ -11,7 +11,7 @@
   * [Karen Daniela Tamayo]
 
 
-## 🎰 Concepto del juego
+### 🎰 Concepto del juego
 
 **Género:** Escape Room educativo 2D.
 
@@ -22,7 +22,7 @@
 No se requiere movimiento libre complejo del personaje para el MVP.
 
 
-## 🦮 Personaje principal: K-9
+### 🦮 Personaje principal: K-9
 
 K-9 es una **Jack Russell Terrier hembra**.
 
@@ -36,7 +36,7 @@ Características:
 K-9 representa al jugador durante toda la experiencia.
 
 
-## 🎮 Gameplay
+### 🎮 Gameplay
 
 ```text
 Explorar
@@ -55,13 +55,14 @@ Avanzar de nivel
 ```
 
 
-## 🚪 Nivel 2 • La Habitación de la Lógica
+### 🚪 Nivel 2 • La Habitación de la Lógica
 
 * **Historia:** Luna entra en una habitación circular con tres puertas: roja, azul y verde. Una pantalla anuncia: "SOLO UNA PUERTA ES SEGURA".
 * **Objetivo:** Resolver los acertijos de lógica y conseguir la Llave 2.
 * **Objetos y elementos:** Tres puertas, luces de colores, panel de condiciones, números y teclado.
+  
 
-## 🟡 Nivel 2 — Control Room
+### ◽ Nivel 2 — Control Room
 
 **Dificultad:** Media  
 **Concepto:** Condicionales if/else  
@@ -75,7 +76,7 @@ else:
 ```
 
 
-## 🧩 Puzzles y soluciones
+### 🧩 Puzzles y soluciones
 
 * **Puzzle 1 — Luces:** roja apagada, azul encendida, verde apagada. La pista dice que la puerta correcta tiene la luz encendida.
 * **Puzzle 2 — Condiciones:** Roja: \(5 > 10\); Azul: \(10 > 5\); Verde: \(2 > 8\). Solo la condición azul es verdadera.
@@ -89,7 +90,7 @@ else:
 > ⚙️ **Responsabilidad técnica:** Diseñar reglas, pistas, soluciones, niveles de dificultad y feedback. Documentar claramente la respuesta correcta para integración.
 
 
-# 🛠️ Tecnologías
+### 🛠️ Tecnologías
 
 | Área | Tecnología |
 |---|---|
