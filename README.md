@@ -1,4 +1,4 @@
-﻿# 🧪 NEXUS-9: Escape Laboratory — [Level 2]
+﻿# 🕹️ NEXUS-9: Escape Laboratory — [Level 2]
 
 > **Proyecto académico** — SENA ADSO / Centro de Diseño Tecnológico e Innovación
 
@@ -9,7 +9,7 @@
   * [Karen Daniela Tamayo]
 
 
-## 🎮 Concepto del juego
+## 🎰 Concepto del juego
 
 **Género:** Escape Room educativo 2D.
 
@@ -20,7 +20,7 @@
 No se requiere movimiento libre complejo del personaje para el MVP.
 
 
-## 🐕 Personaje principal: K-9
+## 🦮 Personaje principal: K-9
 
 K-9 es una **Jack Russell Terrier hembra**.
 
@@ -34,7 +34,7 @@ Características:
 K-9 representa al jugador durante toda la experiencia.
 
 
-## 🕹️ Gameplay
+## 🎮 Gameplay
 
 ```text
 Explorar
@@ -64,7 +64,7 @@ Avanzar de nivel
 * **Puzzle 2 — Condiciones:** Roja: \(5 > 10\); Azul: \(10 > 5\); Verde: \(2 > 8\). Solo la condición azul es verdadera.
 * **Puzzle 3 — Código:** aparecen 4, 7 y 2. La pista indica ordenarlos de menor a mayor: 247.
 
-* **Recompensa:** ◻️ LLAVE 2
+* **Recompensa:** 🗝️ LLAVE 2
 
 * **Final del nivel:** Al introducir 247 aparece "LÓGICA CORRECTA". Se guarda el progreso y se abre el Nivel 3.
 
