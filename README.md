@@ -54,11 +54,26 @@ Abrir puerta
 Avanzar de nivel
 ```
 
+
 ## 🚪 Nivel 2 • La Habitación de la Lógica
 
 * **Historia:** Luna entra en una habitación circular con tres puertas: roja, azul y verde. Una pantalla anuncia: "SOLO UNA PUERTA ES SEGURA".
 * **Objetivo:** Resolver los acertijos de lógica y conseguir la Llave 2.
 * **Objetos y elementos:** Tres puertas, luces de colores, panel de condiciones, números y teclado.
+
+## 🟡 Nivel 2 — Control Room
+
+**Dificultad:** Media  
+**Concepto:** Condicionales if/else  
+**Objetivo:** Reparar el sistema lógico que controla las puertas.
+
+```text
+if code == 927:
+    openDoor()
+else:
+    keepDoorClosed()
+```
+
 
 ## 🧩 Puzzles y soluciones
 
