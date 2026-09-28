@@ -21,6 +21,22 @@
 
 No se requiere movimiento libre complejo del personaje para el MVP.
 
+### 📌 Descripción del Nivel 2
+
+**Nivel 2 • La Habitación de la Lógica** representa la segunda zona del MVP del escape room, donde la protagonista K-9 ingresa a una habitación circular con tres puertas (roja, azul y verde) y una pantalla que anuncia: "SOLO UNA PUERTA ES SEGURA". 
+
+Para avanzar, el jugador deberá explorar el entorno, interactuar con luces indicadoras, un panel de condiciones y un teclado numérico para resolver acertijos basados en lógica y condicionales.
+
+### 🎯 Objetivo del Nivel
+
+Superar los retos lógicos de la sala para descifrar el código correcto, desbloquear la puerta segura y conseguir la **Llave 2**.
+
+### Objetivos específicos del nivel:
+* **Analizar pistas:** Identificar el estado de las luces en el puzzle de iluminación.
+* **Evaluar condiciones:** Resolver operaciones lógicas (como \(5 > 10\), \(10 > 5\), \(2 > 8\)).
+* **Ordenar secuencias:** Organizar los dígitos obtenidos de menor a mayor para obtener la clave numérica (247).
+* **Validación del sistema:** Introducir correctamente el código para activar la respuesta "LÓGICA CORRECTA", guardar el progreso y habilitar el pase al Nivel 3.
+
 
 ### 🦮 Personaje principal: K-9
 
