@@ -2,172 +2,148 @@
 
  ![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter) ![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart) ![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?logo=node.js) ![Express](https://img.shields.io/badge/Express.js-REST-000000?logo=express) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql) ![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github) ![Jira](https://img.shields.io/badge/Jira-Project-0052CC?logo=jira) ![Figma](https://img.shields.io/badge/Figma-UX%2FUI-F24E1E?logo=figma)
 
-> **Proyecto académico** — SENA ADSO / Centro de Diseño Tecnológico e Innovación
+> **Academic project** — SENA ADSO / Centro de Diseño Tecnológico e Innovación
 
-* **Integrantes:** 
+* **Members:** 
   * [Juan Felipe Marin Restrepo] (Scrum Master)
   * [Dylan Yesid Cardona Posada]
   * [Juan David Vinasco Perez]
   * [Karen Daniela Tamayo]
 
 
-### 🎰 Concepto del juego
+### 🎰 Game concept
 
-**Género:** Escape Room educativo 2D.
+**Gender:** Escape Room educativo 2D.
 
-**Estilo:** ciencia ficción, laboratorio tecnológico, misterio, programación y lógica.
+**Style:** science fiction, technological laboratory, mystery, programming and logic.
 
-**Interacción:** click/tap, botones, objetos interactivos, selección de respuestas, inventario y paneles.
+**Interaction:** click/tap, buttons, interactive objects, response selection, inventory and panels.
 
-No se requiere movimiento libre complejo del personaje para el MVP.
+No complex character free movement is required for the MVP.
 
-### 📌 Descripción del Nivel 2
+### 📌 Description of Level 2
 
-**Nivel 2 • La Habitación de la Lógica** representa la segunda zona del MVP del escape room, donde la protagonista K-9 ingresa a una habitación circular con tres puertas (roja, azul y verde) y una pantalla que anuncia: "SOLO UNA PUERTA ES SEGURA". 
+**Level 2• The Logic Room** represents the second area of the escape room MVP, where the protagonist K-9 enters a circular room with three doors (red, blue and green) and a screen that announces: "ONLY ONE DOOR IS SAFE ". 
 
-Para avanzar, el jugador deberá explorar el entorno, interactuar con luces indicadoras, un panel de condiciones y un teclado numérico para resolver acertijos basados en lógica y condicionales.
+To advance, the player must explore the environment, interact with indicator lights, a conditions panel, and a numeric keypad to solve logic-based and conditional puzzles.
 
-### 🎯 Objetivo del Nivel
+### 🎯 Level Objective
 
-Superar los retos lógicos de la sala para descifrar el código correcto, desbloquear la puerta segura y conseguir la **Llave 2**.
+Overcome logical room challenges to crack the correct code, unlock the secure door and get the **2** Key.
 
-### Objetivos específicos del nivel:
-* **Analizar pistas:** Identificar el estado de las luces en el puzzle de iluminación.
-* **Evaluar condiciones:** Resolver operaciones lógicas (como \(5 > 10\), \(10 > 5\), \(2 > 8\)).
-* **Ordenar secuencias:** Organizar los dígitos obtenidos de menor a mayor para obtener la clave numérica (247).
-* **Validación del sistema:** Introducir correctamente el código para activar la respuesta "LÓGICA CORRECTA", guardar el progreso y habilitar el pase al Nivel 3.
+### Level-specific objectives:
+* **Analyze clues:** Identify the state of the lights in the lighting puzzle.
+* **Evaluate conditions:** Solve logical operations (such as \(5 > 10\), \(10 > 5\), \(2 > 8\)).
+* **Sort sequences:** Organize the digits obtained from smallest to largest to obtain the numerical key (247).
+* **System validation:** Correctly enter the code to activate the "CORRECT LOGIC" response, save the progress and enable the pass to Level 3.
 
 
-### 🦮 Personaje principal: K-9
+### 🦮 Main character: K-9
 
-K-9 es una **Jack Russell Terrier hembra**.
+K-9 is a female **Jack Russell Terrier**.
 
-Características:
+Features:
 
-- Inteligente.
-- Curiosa.
-- Valiente.
-- Resolutiva.
+- Smart.
+- Curious.
+- Brave.
+- Resolute.
 
-K-9 representa al jugador durante toda la experiencia.
+K-9 represents the player throughout the experience.
 
 
 ### 🎮 Gameplay
 
 ```text
-Explorar
+Explore
    ↓
-Interactuar
+Interact
    ↓
-Encontrar pistas
+Find clues
    ↓
-Resolver puzzle
+Solve puzzle
    ↓
-Obtener recompensa
+Get reward
    ↓
-Abrir puerta
+Open door
    ↓
-Avanzar de nivel
+Advance level
 ```
 
 
-### 🚪 Nivel 2 • La Habitación de la Lógica
+### 🚪 Level 2 • The Logic Room
 
-* **Historia:** Luna entra en una habitación circular con tres puertas: roja, azul y verde. Una pantalla anuncia: "SOLO UNA PUERTA ES SEGURA".
-* **Objetivo:** Resolver los acertijos de lógica y conseguir la Llave 2.
-* **Objetos y elementos:** Tres puertas, luces de colores, panel de condiciones, números y teclado.
+* **History:** Luna enters a circular room with three doors: red, blue and green. A screen announces: "ONLY ONE DOOR IS SECURE".
+* **Goal:** Solve the logic puzzles and get Key 2.
+* **Objects and elements:** Three doors, colored lights, conditions panel, numbers and keyboard.
   
 
-### ◽ Nivel 2 — Control Room
+### ◽ Level 2 — Control Room
 
-**Dificultad:** Media  
-**Concepto:** Condicionales if/else  
-**Objetivo:** Reparar el sistema lógico que controla las puertas.
+**Difficulty:** Medium  
+**Concept:** If/else conditionals  
+**Objective:** Repair the logical system that controls the doors.
 
 ```text
 if code == 927:
-    openDoor()
+    opendoor()
 else:
     keepDoorClosed()
 ```
 
 
-### 🧩 Puzzles y soluciones
+### 🧩 Puzzles and solutions
 
-* **Puzzle 1 — Luces:** roja apagada, azul encendida, verde apagada. La pista dice que la puerta correcta tiene la luz encendida.
-* **Puzzle 2 — Condiciones:** Roja: \(5 > 10\); Azul: \(10 > 5\); Verde: \(2 > 8\). Solo la condición azul es verdadera.
-* **Puzzle 3 — Código:** aparecen 4, 7 y 2. La pista indica ordenarlos de menor a mayor: 247.
-
-
-* **Recompensa:** 🗝️ LLAVE 2
-
-* **Final del nivel:** Al introducir 247 aparece "LÓGICA CORRECTA". Se guarda el progreso y se abre el Nivel 3.
-
-> ⚙️ **Responsabilidad técnica:** Diseñar reglas, pistas, soluciones, niveles de dificultad y feedback. Documentar claramente la respuesta correcta para integración.
+* **Puzzle 1 — Lights:** red off, blue on, green off. The clue says that the correct door has the light on.
+* **Puzzle 2 — Conditions:** Red: \(5 > 10\); Blue: \(10 > 5\); Green: \(2 > 8\). Only the blue condition is true.
+* **Puzzle 3 — Code:** 4, 7 and 2 appear. The clue indicates ordering them from lowest to highest: 247.
 
 
-### ⚙️ Mecánicas
+* **Reward:** 🗝️ KEY 2
 
-- **Interacción:** seleccionar objetos para obtener información o ejecutar acciones.
-- **Inventario:** almacenar objetos obtenidos.
-- **Puertas:** bloqueadas, desbloqueadas y abiertas.
-- **Pistas:** ayudan al jugador y reducen puntuación.
-- **Temporizador:** muestra el tiempo restante del nivel.
-- **Niveles:** completar el nivel actual desbloquea el siguiente.
+* **End of level:** When entering 247, "CORRECT LOGIC" appears. Progress is saved and Level 3 opens.
 
-### 📦 Inventario de ejemplo
+> ⚙️ **Technical responsibility:** Design rules, clues, solutions, difficulty levels and feedback. Clearly document the correct answer for integration.
+
+
+### ⚙️ Mechanics
+
+- **Interaction:** select objects to obtain information or execute actions.
+- **Inventory:** store obtained objects.
+- **Doors:** locked, unlocked and open.
+- **Tracks:** help the player and reduce score.
+- **Timer:** shows the remaining time of the level.
+- **Levels:** completing the current level unlocks the next one.
+
+### 📦 Example inventory
 
 ```text
-INVENTARIO
+INVENTORY
 
 [Access Card]
 [Master Code]
 ```
 
-### 🛠️ Tecnologías
+### 🛠️ Technologies
 
-| Área | Tecnología |
+| Area | Technology |
 |---|---|
 | Frontend | Flutter / Dart |
-| Backend | Node.js / Express |
-| Base de datos | PostgreSQL |
+| Backend | Node.js /Express |
+| Database | PostgreSQL |
 | API | REST |
-| Diseño | Figma / Canva |
-| Gestión | Jira Software |
-| Control de versiones | Git / GitHub |
-| Pruebas API | Postman |
-| IDE | Visual Studio Code / Android Studio |
+| Design | Figma /Canva |
+| Management | Jira Software |
+| Version control | Git /GitHub |
+| API testing | Postman |
+| IDE | Visual Studio Code /Android Studio |
 
 
-### 📊 Diagramas del Sistema
-Espacio reservado para los diagramas técnicos y de diseño del proyecto:
+### 📄 License
 
-1. Arquitectura General
-(Adjunta aquí la imagen del diagrama de arquitectura general del sistema)
-![Arquitectura General](./assets/diagramas/arquitectura.png)
+Project developed for academic purposes for the program:
 
-2. Diagrama de Componentes
-(Adjunta aquí la imagen de los componentes de Flutter y Node.js)
-![Componentes](./assets/diagramas/componentes.png)
-
-3. Diagrama de Clases
-(Adjunta aquí la imagen de la estructura de clases orientada a objetos en Dart)
-![Clases](./assets/diagramas/clases.png)
-
-4. Diagrama de Despliegue
-(Adjunta aquí la imagen del modelo cliente-servidor y base de datos)
-![Despliegue](./assets/diagramas/despliegue.png)
-
-5. Diagrama de Actividades
-(Adjunta aquí la imagen del flujo de actividades y resolución de puzzles del nivel)
-![Actividades](./assets/diagramas/actividades.png)
-
-
-### 📄 Licencia
-
-Proyecto desarrollado con fines académicos para el programa:
-
-**Análisis y Desarrollo de Software — ADSO**  
-**SENA — Centro de Diseño Tecnológico e Innovación**
+**Software Analysis and Development — ADSO**  
+**SENA — Center for Technological Design and Innovation**
 
 ---
